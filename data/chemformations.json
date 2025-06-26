@@ -1,0 +1,23 @@
+[
+  {
+    "entry_id": 1,
+    "name": "SuperSolvent X",
+    "formula": [
+      { "ingredient": "Acetone", "percent": 50 },
+      { "ingredient": "Ethanol",  "percent": 30 },
+      { "ingredient": "Water",    "percent": 20 }
+    ],
+    "properties": { "density": 0.79, "viscosity": 0.001 },
+    "tags": ["solvent", "organic"]
+  },
+  {
+    "entry_id": 2,
+    "name": "HydroMix A",
+    "formula": [
+      { "ingredient": "Water",   "percent": 70 },
+      { "ingredient": "Glycerol","percent": 30 }
+    ],
+    "properties": { "density": 1.12, "viscosity": 0.005 },
+    "tags": ["hydrophilic", "viscous"]
+  }
+]
