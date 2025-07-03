@@ -1,0 +1,18 @@
+[
+  {
+    "request_id": 1,
+    "user_id": 1,
+    "entry_id": 1,
+    "query_text": "solvent",
+    "timestamp": "2025-06-26T11:15:00Z",
+    "result_ids": [1]
+  },
+  {
+    "request_id": 2,
+    "user_id": 2,
+    "entry_id": 4,
+    "query_text": "gel",
+    "timestamp": "2025-06-26T11:20:00Z",
+    "result_ids": [4]
+  }
+]
