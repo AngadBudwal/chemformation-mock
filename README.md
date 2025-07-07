@@ -1,4 +1,3 @@
-```markdown
 # Chemformation Mock API
 
 This repository provides a mock backend for the Chemformation Library, including sample data and a minimal Express server.
@@ -120,5 +119,4 @@ GET http://localhost:3000/api/requests
     "result_ids": [4]
   }
 ]
-```
 ```
