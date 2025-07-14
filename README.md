@@ -120,3 +120,24 @@ GET http://localhost:3000/api/requests
   }
 ]
 ```
+
+flowchart TB
+  subgraph Frontend
+    A[Search UI] -->|GET /api/search?q=…| B[Express API]
+    C[User/Roles UI] -->|GET /api/users<br>/api/roles| B
+    D[History UI] -->|GET /api/requests| B
+  end
+
+  subgraph Backend
+    B --> E[Data Layer]
+    E --> F[chemformations.json]
+    E --> G[users.json]
+    E --> H[roles.json]
+    E --> I[ai_requests.json]
+  end
+
+  subgraph Team_Coordination
+    J(Team 2: UI Integration) --> A
+    K(AI Logic / Chemformation Library) -. triggers .-> B
+  end
+
