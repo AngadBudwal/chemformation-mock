@@ -121,6 +121,7 @@ GET http://localhost:3000/api/requests
 ]
 ```
 
+```mermaid
 flowchart TB
   subgraph Frontend
     A[Search UI] -->|GET /api/search?q=…| B[Express API]
